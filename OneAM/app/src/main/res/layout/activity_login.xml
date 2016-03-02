@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2016 Nextzy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.nextzy.oneassetmanagement.view.LoginActivity">
+
+    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+        android:id="@+id/login_iv_logo"
+        android:layout_width="@dimen/login_logo_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_extra_large"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_one_am" />
+
+    <LinearLayout
+        android:id="@+id/login_layout_login_container"
+        android:layout_width="@dimen/login_form_width"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/BodyTextView.Blue.ExtraLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_normal"
+            android:layout_marginStart="@dimen/default_margin_padding_normal"
+            android:text="@string/login_username" />
+
+        <EditText
+            android:id="@+id/login_et_username"
+            style="@style/DefaultEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin_padding_normal"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            android:inputType="text"
+            android:text="NextzyTeam" />
+
+        <TextView
+            style="@style/BodyTextView.Blue.ExtraLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_margin_padding_normal"
+            android:layout_marginStart="@dimen/default_margin_padding_normal"
+            android:layout_marginTop="@dimen/default_margin_padding_large"
+            android:text="@string/login_password" />
+
+        <EditText
+            android:id="@+id/login_et_password"
+            style="@style/DefaultEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin_padding_normal"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            android:inputType="textPassword"
+            android:maxLength="15"
+            android:text="01234567" />
+
+        <Button
+            android:id="@+id/login_btn_sign_in"
+            style="@style/BlueButton"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/default_margin_padding_extra_large"
+            android:text="@string/login_sign_in" />
+
+        <Button
+            android:id="@+id/login_btn_sign_up"
+            style="@style/BlueButton"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/default_margin_padding_extra_large"
+            android:maxLength="15"
+            android:text="@string/login_sign_up" />
+
+        <Button
+            android:id="@+id/login_btn_forget_password"
+            style="@style/BlueButton"
+            android:layout_width="@dimen/login_button_width"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/default_margin_padding_large"
+            android:layout_marginTop="@dimen/default_margin_padding_normal"
+            android:text="@string/login_forget_password" />
+    </LinearLayout>
+</LinearLayout>

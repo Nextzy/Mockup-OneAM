@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2016 Nextzy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">One Asset Management</string>
+    <string name="dashboard_name">Name</string>
+    <string name="sample">Sample</string>
+    <string name="lorem">\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus libero eget dolor pharetra aliquet. Aenean pretium consectetur erat nec pulvinar. Suspendisse a varius justo, rhoncus ultricies turpis. Fusce vulputate nulla sed purus venenatis, ac placerat sem condimentum. Cras sodales, ex nec facilisis tempor, odio lectus vulputate felis, quis ornare nisi diam eget ex. Suspendisse tincidunt mollis felis, non rutrum nisi pulvinar in. Duis laoreet at odio sed tincidunt. Aliquam consectetur felis malesuada, accumsan lorem et, imperdiet augue.</string>
+    <string name="dashboard_client_number">Client Number</string>
+    <string name="dashboard_purchase">Purchase</string>
+    <string name="dashboard_switch">Switch</string>
+    <string name="dashboard_sell">Sell</string>
+    <string name="dashboard_buy">Buy</string>
+    <string name="dashboard_investment_ratio">Investment Ratio</string>
+    <string name="dashboard_purchased_fund">Purchased Fund</string>
+    <string name="purchased_fund_detail_risk_rate">Risk Rate</string>
+    <string name="purchased_fund_detail_star_rate">Star Rate</string>
+    <string name="purchased_fund_detail_individual_fund">Individual Fund</string>
+    <string name="purchased_fund_detail_cut_off_time">Cut-off Time</string>
+    <string name="purchased_fund_detail_unit">Unit</string>
+    <string name="purchased_fund_detail_cost">Cost</string>
+    <string name="purchased_fund_detail_latest_nav">Latest NAV</string>
+    <string name="purchased_fund_detail_in_port_amount">In port amount</string>
+    <string name="purchased_fund_detail_profit_percent">Profit %</string>
+    <string name="purchased_fund_detail_download_fact_sheet">Download fact sheet</string>
+    <string name="purchased_fund_detail_sell">Sell</string>
+    <string name="purchased_fund_detail_switch">Switch</string>
+    <string name="term_agreement_agree">Agree</string>
+    <string name="term_agreement_message">\t\t\t\tInvestment in investment units is not a money deposit and involves risks. Investors should carefully study the prospectus and tax guide (in case of RMF/LTF) before making a decision to invest. Investors may get a return in an amount higher or lower than the amount initially invested and may not receive the redemption proceeds within the specified period of time or may not be able to redeem investment units as per the placed order.</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_sign_up">Sign up</string>
+    <string name="login_forget_password">Forget Password</string>
+    <string name="login_sign_in">Sign in</string>
+    <string name="login_sample_username">nextzyteam</string>
+    <string name="login_sample_password">123456</string>
+    <string name="sell_fund_list_select_fund_to_sell">Select fund to sell</string>
+    <string name="sell_fund_list_more_filter">More Filter</string>
+    <string name="sell_fund_list_in_port_amount">In port amount</string>
+    <string name="sell_fund_detail_risk_ratio">Risk Ratio</string>
+    <string name="sell_fund_detail_star_rate">Star Rate</string>
+    <string name="sell_fund_detail_individual_fund">Individual Fund</string>
+    <string name="sell_fund_detail_cut_off_time">Cut-off Time</string>
+    <string name="sell_fund_detail_download_fact_sheet">Download fact sheet</string>
+    <string name="sell_fund_detail_volume">Volume (Baht)</string>
+    <string name="sell_fund_detail_in_port_amount">In port amount</string>
+    <string name="sell_fund_detail_sell">Sell</string>
+    <string name="sell_fund_detail_fund_detail">Fund detail</string>
+    <string name="sell_fund_detail_nav">NAV</string>
+    <string name="transaction_successful_title">Your transaction is complete!</string>
+    <string name="transaction_successful_message">Your payment has been successfully processed. Thank you.</string>
+    <string name="transaction_successful_ok">OK</string>
+    <string name="buy_fund_list_more_filter">More Filter</string>
+    <string name="buy_fund_list_select_fund_to_buy">Select fund to buy</string>
+    <string name="buy_fund_list_credits_fund">Credits Fund</string>
+    <string name="buy_fund_list_client_number">Client Number</string>
+    <string name="buy_fund_list_name">Name</string>
+    <string name="buy_fund_detail_fund_detail">Fund detail</string>
+    <string name="buy_fund_detail_buy">Buy</string>
+    <string name="buy_fund_detail_in_port_amount">In port amount</string>
+    <string name="buy_fund_detail_volume">Volume (Baht)</string>
+    <string name="buy_fund_detail_download_fact_sheet">Download fact sheet</string>
+    <string name="buy_fund_detail_cut_off_time">Cut-off Time</string>
+    <string name="buy_fund_detail_individual_fund">Individual Fund</string>
+    <string name="buy_fund_detail_nav">NAV</string>
+    <string name="buy_fund_detail_star_rate">Star Rating</string>
+    <string name="buy_fund_detail_risk_rating">Risk Rating</string>
+    <string name="switch_out_fund_list_select_fund_to_switch_out">Select fund to switch out</string>
+    <string name="switch_out_fund_list_more_filter">More Filter</string>
+    <string name="switch_out_fund_list_in_port_amount">In port amount</string>
+    <string name="switch_out_fund_detail_fund_detail">Fund detail</string>
+    <string name="switch_out_fund_detail_risk_ratio">Risk Ratio</string>
+    <string name="switch_out_fund_detail_star_rate">Star Rate</string>
+    <string name="switch_out_fund_detail_individual_fund">Individual Fund</string>
+    <string name="switch_out_fund_detail_cut_off_time">Cut-off Time</string>
+    <string name="switch_out_fund_detail_download_fact_sheet">Download fact sheet</string>
+    <string name="switch_out_fund_detail_volume">Volume (Baht)</string>
+    <string name="switch_out_fund_detail_in_port_amount">In port amount</string>
+    <string name="switch_out_fund_detail_switch_out">Switch out</string>
+    <string name="switch_in_fund_list_select_fund_to_switch_in">Select fund to switch in</string>
+    <string name="switch_in_fund_list_more_filter">More Filter</string>
+    <string name="switch_in_fund_list_change_switch_out">Change switch out</string>
+    <string name="switch_in_fund_list_switch_out">Switch out</string>
+    <string name="switch_in_fund_list_volume">Volume</string>
+    <string name="switch_in_fund_detail_switch_in">Switch in</string>
+    <string name="switch_in_fund_detail_fund_detail">Fund detail</string>
+    <string name="switch_in_fund_detail_risk_ratio">Risk Ratio</string>
+    <string name="switch_in_fund_detail_star_rate">Star Rate</string>
+    <string name="switch_in_fund_detail_individual_fund">Individual Fund</string>
+    <string name="switch_in_fund_detail_cut_off_time">Cut-off Time</string>
+    <string name="switch_in_fund_detail_download_fact_sheet">Download fact sheet</string>
+    <string name="switch_in_fund_detail_volume">Volume</string>
+    <string name="switch_in_fund_detail_in_port_amount">In port amount</string>
+    <string name="switch_in_fund_detail_change_switch_out">Change switch out</string>
+    <string name="switch_in_fund_detail_switch_out">Switch out</string>
+    <string name="switch_in_fund_detail_nav">NAV</string>
+    <string name="switch_summary_switch_in">Switch in</string>
+    <string name="switch_summary_switch_in_volume">Volume</string>
+    <string name="switch_summary_switch_outvolume">Volume</string>
+    <string name="switch_summary_switch_out">Switch out</string>
+    <string name="switch_summary_switch">Switch</string>
+    <string name="dialog_loading_loading">Loading</string>
+    <string name="dialog_confirm_confirm">Confirm</string>
+    <string name="dialog_confirm_cancel">Cancel</string>
+    <string name="transaction_confirm_title">Warning</string>
+    <string name="transaction_confirm_message">\t\t\t\tInvestment in mutual fund is not a deposit and is subject to risk. Unit holders may receive back more or less than original amount invested.In addition, the redemption money may not be obtained within the prescribed time or the redemption pursued to the order may not be executed.</string>
+    <string name="buy_fund_detail_not_enough_credits_fund">Not enough credits fund.</string>
+    <string name="buy_fund_detail_please_insert_volume">Please insert volume.</string>
+    <string name="sell_fund_detail_not_enough_in_port_amount">Not enough in port amount.</string>
+    <string name="sell_fund_detail_please_insert_volume">Please insert volume.</string>
+    <string name="purchased_fund_cut_off_time">Cut-off Time</string>
+    <string name="purchased_fund_in_port_amount">In port amount</string>
+    <string name="purchased_fund_individual_fund">Individual Fund</string>
+    <string name="purchased_fund_nav">NAV</string>
+    <string name="purchased_fund_star_rate">Star Rating</string>
+    <string name="purchased_fund_risk_rating">Risk Rating</string>
+    <string name="title_buy">Buy</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_purchased_fund_detail">Purchased Fund Detail</string>
+    <string name="title_sell">Sell</string>
+    <string name="title_switch">Switch</string>
+    <string name="title_term_of_agreement">Term of Agreement</string>
+    <string name="title_transaction_successful">Done</string>
+    <string name="title_alert">Alert</string>
+    <string name="login_sign_up_is_unavailable_now">Sign up is unavailable now.</string>
+    <string name="login_forgot_password_is_unavailable_now">Forget password is unavailable now.</string>
+    <string name="more_filter_unavailable">More filter is unavailable now.</string>
+    <string name="alert_feed_read_more">Read more</string>
+    <string name="menu_alert">Alert</string>
+    <string name="menu_report">Report</string>
+    <string name="menu_dashboard">Dashboard</string>
+
+    <string name="parse_app_id">xnr8LFTh42crV0sivwBAoThQhOi7MYPqcIFdugWl</string>
+    <string name="parse_client_key">4mVvH1MCXn7JuI9m0ljdsMnb4msYOjWsMBM4CnTe</string>
+</resources>

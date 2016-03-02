@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2016 Nextzy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <dimen name="default_margin_padding_extra_extra_small">1dp</dimen>
+    <dimen name="default_margin_padding_extra_small">2dp</dimen>
+    <dimen name="default_margin_padding_small">4dp</dimen>
+    <dimen name="default_margin_padding_normal">8dp</dimen>
+    <dimen name="default_margin_padding_large">16dp</dimen>
+    <dimen name="default_margin_padding_extra_large">32dp</dimen>
+    <dimen name="default_card_view_corner_radius">0dp</dimen>
+    <dimen name="default_card_view_elevation">3dp</dimen>
+    <dimen name="default_button_minimum_width">100dp</dimen>
+    <dimen name="default_toolbar_button_size">48dp</dimen>
+
+    <dimen name="default_divider">2dp</dimen>
+
+    <dimen name="default_text_title_normal">22sp</dimen>
+    <dimen name="default_text_header_extra_small">16sp</dimen>
+    <dimen name="default_text_header_small">18sp</dimen>
+    <dimen name="default_text_header_normal">20sp</dimen>
+    <dimen name="default_text_header_large">22sp</dimen>
+    <dimen name="default_text_header_extra_large">24sp</dimen>
+    <dimen name="default_text_body_extra_small">12sp</dimen>
+    <dimen name="default_text_body_small">14sp</dimen>
+    <dimen name="default_text_body_normal">16sp</dimen>
+    <dimen name="default_text_body_large">18sp</dimen>
+    <dimen name="default_text_body_extra_large">20sp</dimen>
+
+
+    <dimen name="default_fund_indicator">3dp</dimen>
+
+    <dimen name="login_logo_width">250dp</dimen>
+    <dimen name="login_form_width">300dp</dimen>
+    <dimen name="dashboard_view_pager_purchased_fund_width">280dp</dimen>
+    <dimen name="dashboard_view_pager_purchased_fund_arrow_width">30dp</dimen>
+    <dimen name="dashboard_view_pager_margin">-50dp</dimen>
+    <dimen name="dashboard_graph_size">250dp</dimen>
+    <dimen name="dashboard_layout_purchased_fund_indicator_size">30dp</dimen>
+    <dimen name="login_button_width">170dp</dimen>
+    <dimen name="sell_fund_detail_edit_text_volume_width">150dp</dimen>
+    <dimen name="buy_fund_detail_edit_text_volume_width">150dp</dimen>
+    <dimen name="switch_out_fund_detail_edit_text_volume_width">150dp</dimen>
+
+    <dimen name="dialog_loading_width">300dp</dimen>
+    <dimen name="dialog_loading_circular_progress_size">60dp</dimen>
+
+    <dimen name="menu_logo_width">150dp</dimen>
+    <dimen name="menu_icon_size">40dp</dimen>
+    <dimen name="report_graph_width">300dp</dimen>
+
+</resources>

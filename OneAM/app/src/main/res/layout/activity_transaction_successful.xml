@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2016 Nextzy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_extra_light_gray"
+    android:orientation="vertical"
+    tools:context="com.nextzy.oneassetmanagement.view.TransactionSuccessfulActivity">
+
+    <include layout="@layout/view_toolbar" />
+
+    <TextView
+        style="@style/HeaderTextView.Blue.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_padding_large"
+        android:layout_marginStart="@dimen/default_margin_padding_large"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:paddingLeft="@dimen/default_margin_padding_normal"
+        android:paddingRight="@dimen/default_margin_padding_normal"
+        android:text="@string/transaction_successful_title" />
+
+    <View
+        style="@style/HorizontalDivider"
+        android:layout_margin="@dimen/default_margin_padding_large" />
+
+    <TextView
+        style="@style/BodyTextView.Black.Normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin_padding_extra_large"
+        android:layout_marginLeft="@dimen/default_margin_padding_extra_large"
+        android:layout_marginRight="@dimen/default_margin_padding_extra_large"
+        android:text="@string/transaction_successful_message" />
+
+    <Button
+        android:id="@+id/transaction_successful_btn_confirm"
+        style="@style/BlueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/transaction_successful_ok" />
+
+</LinearLayout>

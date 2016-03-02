@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2016 Nextzy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <color name="colorPrimary">@color/blue</color>
+    <color name="colorPrimaryDark">@color/dark_blue</color>
+    <color name="colorAccent">@color/green</color>
+
+    <color name="red">#EC183C</color>
+    <color name="dark_green">#00b823</color>
+    <color name="green">#00cb26</color>
+    <color name="light_green">#44ea63</color>
+    <color name="dark_blue">#0199AD</color>
+    <color name="blue">#00AEC5</color>
+    <color name="light_blue">#2BD3EA</color>
+    <color name="dark_yellow">#F77A00</color>
+    <color name="yellow">#F89200</color>
+    <color name="light_yellow">#FFBD3E</color>
+    <color name="dark_gray">#6B6B6B</color>
+    <color name="gray">#AAAAAA</color>
+    <color name="dark_blue_gray">#8CA7B2</color>
+    <color name="blue_gray">#99BCCB</color>
+    <color name="extra_light_gray">#EFEFEF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_alpha_7">#0FFFFFFF</color>
+    <color name="white_alpha_10">#19FFFFFF</color>
+    <color name="white_alpha_20">#33FFFFFF</color>
+    <color name="white_alpha_30">#4CFFFFFF</color>
+    <color name="white_alpha_40">#66FFFFFF</color>
+    <color name="black_alpha_7">#0F000000</color>
+    <color name="black_alpha_10">#19000000</color>
+    <color name="black_alpha_20">#33000000</color>
+    <color name="black_alpha_30">#4C000000</color>
+    <color name="black_alpha_40">#66000000</color>
+
+    <color name="text_toolbar">@color/white</color>
+    <color name="text_blue">@color/blue</color>
+    <color name="text_green">@color/green</color>
+    <color name="text_red">@color/red</color>
+    <color name="text_white">@color/white</color>
+    <color name="text_black">@color/dark_gray</color>
+
+    <color name="button_yellow_normal">@color/yellow</color>
+    <color name="button_yellow_pressed">@color/dark_yellow</color>
+    <color name="button_green_normal">@color/green</color>
+    <color name="button_green_pressed">@color/dark_green</color>
+    <color name="button_blue_gray_normal">@color/blue_gray</color>
+    <color name="button_blue_gray_pressed">@color/dark_blue_gray</color>
+    <color name="button_blue_normal">@color/blue</color>
+    <color name="button_blue_pressed">@color/dark_blue</color>
+    <color name="button_white_normal">@color/white</color>
+    <color name="button_white_pressed">@color/extra_light_gray</color>
+    <color name="button_transparent_normal">@color/transparent</color>
+    <color name="button_transparent_pressed">@color/white_alpha_10</color>
+    <color name="button_disable">@color/gray</color>
+
+    <color name="bg_red">@color/red</color>
+    <color name="bg_blue">@color/blue</color>
+    <color name="bg_green">@color/green</color>
+    <color name="bg_yellow">@color/yellow</color>
+    <color name="bg_white">@color/white</color>
+    <color name="bg_extra_light_gray">@color/extra_light_gray</color>
+    <color name="bg_edit_text">@color/extra_light_gray</color>
+    <color name="bg_divider">@color/black_alpha_7</color>
+
+    <color name="graph_blue">#74dae8</color>
+    <color name="graph_red">#f37092</color>
+    <color name="graph_orange">#f39f70</color>
+    <color name="graph_purple">#d88cee</color>
+    <color name="graph_yellow">#fcf47d</color>
+    <color name="graph_green">#8ceeb5</color>
+
+</resources>

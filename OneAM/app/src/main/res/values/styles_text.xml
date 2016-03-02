@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2016 Nextzy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<resources>
+
+    <style name="TitleTextView" >
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/default_text_title_normal</item>
+    </style>
+
+    <style name="HeaderTextView" />
+    <style name="BodyTextView" />
+
+    <!-- Header Blue-->
+    <style name="HeaderTextView.Blue" parent="HeaderTextView">
+        <item name="android:textColor">@color/text_blue</item>
+    </style>
+
+    <style name="HeaderTextView.Blue.ExtraSmall" parent="HeaderTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_header_extra_small</item>
+    </style>
+
+    <style name="HeaderTextView.Blue.Small" parent="HeaderTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_header_small</item>
+    </style>
+
+    <style name="HeaderTextView.Blue.Normal" parent="HeaderTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_header_normal</item>
+    </style>
+
+    <style name="HeaderTextView.Blue.Large" parent="HeaderTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_header_large</item>
+    </style>
+
+    <style name="HeaderTextView.Blue.ExtraLarge" parent="HeaderTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_header_extra_large</item>
+    </style>
+
+    <!-- Header Green -->
+    <style name="HeaderTextView.Green" parent="HeaderTextView">
+        <item name="android:textColor">@color/text_green</item>
+    </style>
+
+    <style name="HeaderTextView.Green.ExtraSmall" parent="HeaderTextView.Green">
+        <item name="android:textSize">@dimen/default_text_header_extra_small</item>
+    </style>
+
+    <style name="HeaderTextView.Green.Small" parent="HeaderTextView.Green">
+        <item name="android:textSize">@dimen/default_text_header_small</item>
+    </style>
+
+    <style name="HeaderTextView.Green.Normal" parent="HeaderTextView.Green">
+        <item name="android:textSize">@dimen/default_text_header_normal</item>
+    </style>
+
+    <style name="HeaderTextView.Green.Large" parent="HeaderTextView.Green">
+        <item name="android:textSize">@dimen/default_text_header_large</item>
+    </style>
+
+    <style name="HeaderTextView.Green.ExtraLarge" parent="HeaderTextView.Green">
+        <item name="android:textSize">@dimen/default_text_header_extra_large</item>
+    </style>
+
+    <!-- Header White -->
+    <style name="HeaderTextView.White" parent="HeaderTextView">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="HeaderTextView.White.ExtraSmall" parent="HeaderTextView.White">
+        <item name="android:textSize">@dimen/default_text_header_extra_small</item>
+    </style>
+
+    <style name="HeaderTextView.White.Small" parent="HeaderTextView.White">
+        <item name="android:textSize">@dimen/default_text_header_small</item>
+    </style>
+
+    <style name="HeaderTextView.White.Normal" parent="HeaderTextView.White">
+        <item name="android:textSize">@dimen/default_text_header_normal</item>
+    </style>
+
+    <style name="HeaderTextView.White.Large" parent="HeaderTextView.White">
+        <item name="android:textSize">@dimen/default_text_header_large</item>
+    </style>
+
+    <style name="HeaderTextView.White.ExtraLarge" parent="HeaderTextView.White">
+        <item name="android:textSize">@dimen/default_text_header_extra_large</item>
+    </style>
+
+    <!-- Header Black -->
+    <style name="HeaderTextView.Black" parent="HeaderTextView">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="HeaderTextView.Black.ExtraSmall" parent="HeaderTextView.Black">
+        <item name="android:textSize">@dimen/default_text_header_extra_small</item>
+    </style>
+
+    <style name="HeaderTextView.Black.Small" parent="HeaderTextView.Black">
+        <item name="android:textSize">@dimen/default_text_header_small</item>
+    </style>
+
+    <style name="HeaderTextView.Black.Normal" parent="HeaderTextView.Black">
+        <item name="android:textSize">@dimen/default_text_header_normal</item>
+    </style>
+
+    <style name="HeaderTextView.Black.Large" parent="HeaderTextView.Black">
+        <item name="android:textSize">@dimen/default_text_header_large</item>
+    </style>
+
+    <style name="HeaderTextView.Black.ExtraLarge" parent="HeaderTextView.Black">
+        <item name="android:textSize">@dimen/default_text_header_extra_large</item>
+    </style>
+
+    <!-- Body Blue-->
+    <style name="BodyTextView.Blue" parent="BodyTextView">
+        <item name="android:textColor">@color/text_blue</item>
+    </style>
+
+    <style name="BodyTextView.Blue.ExtraSmall" parent="BodyTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_body_extra_small</item>
+    </style>
+
+    <style name="BodyTextView.Blue.Small" parent="BodyTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_body_small</item>
+    </style>
+
+    <style name="BodyTextView.Blue.Normal" parent="BodyTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_body_normal</item>
+    </style>
+
+    <style name="BodyTextView.Blue.Large" parent="BodyTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_body_large</item>
+    </style>
+
+    <style name="BodyTextView.Blue.ExtraLarge" parent="BodyTextView.Blue">
+        <item name="android:textSize">@dimen/default_text_body_extra_large</item>
+    </style>
+
+    <!-- Body Green -->
+    <style name="BodyTextView.Green" parent="BodyTextView">
+        <item name="android:textColor">@color/text_green</item>
+    </style>
+
+    <style name="BodyTextView.Green.ExtraSmall" parent="BodyTextView.Green">
+        <item name="android:textSize">@dimen/default_text_body_extra_small</item>
+    </style>
+
+    <style name="BodyTextView.Green.Small" parent="BodyTextView.Green">
+        <item name="android:textSize">@dimen/default_text_body_small</item>
+    </style>
+
+    <style name="BodyTextView.Green.Normal" parent="BodyTextView.Green">
+        <item name="android:textSize">@dimen/default_text_body_normal</item>
+    </style>
+
+    <style name="BodyTextView.Green.Large" parent="HeaderTextView.Green">
+        <item name="android:textSize">@dimen/default_text_body_large</item>
+    </style>
+
+    <style name="BodyTextView.Green.ExtraLarge" parent="BodyTextView.Green">
+        <item name="android:textSize">@dimen/default_text_body_extra_large</item>
+    </style>
+
+    <!-- Body White -->
+    <style name="BodyTextView.White" parent="BodyTextView">
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+
+    <style name="BodyTextView.White.ExtraSmall" parent="BodyTextView.White">
+        <item name="android:textSize">@dimen/default_text_body_extra_small</item>
+    </style>
+
+    <style name="BodyTextView.White.Small" parent="BodyTextView.White">
+        <item name="android:textSize">@dimen/default_text_body_small</item>
+    </style>
+
+    <style name="BodyTextView.White.Normal" parent="BodyTextView.White">
+        <item name="android:textSize">@dimen/default_text_body_normal</item>
+    </style>
+
+    <style name="BodyTextView.White.Large" parent="BodyTextView.White">
+        <item name="android:textSize">@dimen/default_text_body_large</item>
+    </style>
+
+    <style name="BodyTextView.White.ExtraLarge" parent="BodyTextView.White">
+        <item name="android:textSize">@dimen/default_text_body_extra_large</item>
+    </style>
+
+    <!-- Body Black -->
+    <style name="BodyTextView.Black" parent="BodyTextView">
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="BodyTextView.Black.ExtraSmall" parent="BodyTextView.Black">
+        <item name="android:textSize">@dimen/default_text_body_extra_small</item>
+    </style>
+
+    <style name="BodyTextView.Black.Small" parent="BodyTextView.Black">
+        <item name="android:textSize">@dimen/default_text_body_small</item>
+    </style>
+
+    <style name="BodyTextView.Black.Normal" parent="BodyTextView.Black">
+        <item name="android:textSize">@dimen/default_text_body_normal</item>
+    </style>
+
+    <style name="BodyTextView.Black.Large" parent="BodyTextView.Black">
+        <item name="android:textSize">@dimen/default_text_body_large</item>
+    </style>
+
+    <style name="BodyTextView.Black.ExtraLarge" parent="BodyTextView.Black">
+        <item name="android:textSize">@dimen/default_text_body_extra_large</item>
+    </style>
+
+    <!-- Body Red -->
+    <style name="BodyTextView.Red" parent="BodyTextView">
+        <item name="android:textColor">@color/text_red</item>
+    </style>
+
+    <style name="BodyTextView.Red.ExtraSmall" parent="BodyTextView.Red">
+        <item name="android:textSize">@dimen/default_text_body_extra_small</item>
+    </style>
+
+    <style name="BodyTextView.Red.Small" parent="BodyTextView.Red">
+        <item name="android:textSize">@dimen/default_text_body_small</item>
+    </style>
+
+    <style name="BodyTextView.Red.Normal" parent="BodyTextView.Red">
+        <item name="android:textSize">@dimen/default_text_body_normal</item>
+    </style>
+
+    <style name="BodyTextView.Red.Large" parent="BodyTextView.Red">
+        <item name="android:textSize">@dimen/default_text_body_large</item>
+    </style>
+
+    <style name="BodyTextView.Red.ExtraLarge" parent="BodyTextView.Red">
+        <item name="android:textSize">@dimen/default_text_body_extra_large</item>
+    </style>
+
+</resources>

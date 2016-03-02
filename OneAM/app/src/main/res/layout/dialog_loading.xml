@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2016 Nextzy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <fr.castorflex.android.circularprogressbar.CircularProgressBar
+        android:layout_width="@dimen/dialog_loading_circular_progress_size"
+        android:layout_height="@dimen/dialog_loading_circular_progress_size"
+        android:indeterminate="true"
+        app:cpb_color="@color/white"
+        app:cpb_max_sweep_angle="300"
+        app:cpb_min_sweep_angle="10"
+        app:cpb_rotation_speed="1.0"
+        app:cpb_stroke_width="4dp"
+        app:cpb_sweep_speed="1.0" />
+
+    <TextView
+        style="@style/BodyTextView.White.Normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/default_margin_padding_normal"
+        android:layout_marginStart="@dimen/default_margin_padding_normal"
+        android:text="@string/dialog_loading_loading" />
+
+    <pl.tajchert.sample.DotsTextView
+        style="@style/BodyTextView.White.Normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_margin_padding_normal"
+        android:layout_marginRight="@dimen/default_margin_padding_normal"
+        app:autoplay="true"
+        app:period="1000" />
+
+</LinearLayout>

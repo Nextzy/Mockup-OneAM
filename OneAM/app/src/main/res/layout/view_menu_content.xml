@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright 2016 Nextzy
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+        android:layout_width="@dimen/menu_logo_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/default_margin_padding_large"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/ic_one_am" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_padding_large"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/menu_layout_dashboard"
+            style="@style/WhiteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/default_margin_padding_large"
+            android:paddingLeft="@dimen/default_margin_padding_extra_large"
+            android:paddingRight="@dimen/default_margin_padding_extra_large"
+            android:paddingTop="@dimen/default_margin_padding_large">
+
+            <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+                android:layout_width="@dimen/menu_icon_size"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/default_margin_padding_small"
+                android:layout_marginRight="@dimen/default_margin_padding_small"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_dashboard" />
+
+            <TextView
+                style="@style/BodyTextView.Blue.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_dashboard" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/HorizontalDivider"
+            android:layout_marginLeft="@dimen/default_margin_padding_normal"
+            android:layout_marginRight="@dimen/default_margin_padding_normal" />
+
+        <LinearLayout
+            android:id="@+id/menu_layout_report"
+            style="@style/WhiteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/default_margin_padding_large"
+            android:paddingLeft="@dimen/default_margin_padding_extra_large"
+            android:paddingRight="@dimen/default_margin_padding_extra_large"
+            android:paddingTop="@dimen/default_margin_padding_large">
+
+            <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+                android:layout_width="@dimen/menu_icon_size"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/default_margin_padding_small"
+                android:layout_marginRight="@dimen/default_margin_padding_small"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_report" />
+
+            <TextView
+                style="@style/BodyTextView.Blue.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_report" />
+
+        </LinearLayout>
+
+        <View
+            style="@style/HorizontalDivider"
+            android:layout_marginLeft="@dimen/default_margin_padding_normal"
+            android:layout_marginRight="@dimen/default_margin_padding_normal" />
+
+        <LinearLayout
+            android:id="@+id/menu_layout_alert"
+            style="@style/WhiteButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/default_margin_padding_large"
+            android:paddingLeft="@dimen/default_margin_padding_extra_large"
+            android:paddingRight="@dimen/default_margin_padding_extra_large"
+            android:paddingTop="@dimen/default_margin_padding_large">
+
+            <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+                android:layout_width="@dimen/menu_icon_size"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/default_margin_padding_small"
+                android:layout_marginRight="@dimen/default_margin_padding_small"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/ic_alert" />
+
+            <TextView
+                style="@style/BodyTextView.Blue.Large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menu_alert" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
